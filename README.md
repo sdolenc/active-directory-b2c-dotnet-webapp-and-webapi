@@ -94,7 +94,7 @@ Your web application registration should include the following information:
 
 - Provide a descriptive Name for your web appliation, for example, `My Test ASP.NET Web Application`. You can identify this application by its Name within the Azure portal.
 - Mark **Yes** for the **Include web app / web API** option.
-- Set the Reply URL to `https://localhost:44316/` This is the port number that this ASP.NET Web Application sample is configured to run on. 
+- Set the Reply URL to `https://localhost:45678/` This is the port number that this ASP.NET Web Application sample is configured to run on. 
 - Create your application.
 - Once the application is created, you need to create a Web App client secret. Go to the **Keys** page for your Web App registration and click **Generate Key**. Note: You will only see the secret once. Make sure you copy it.
 - Open your `My Test ASP.NET Web Application` and open the **API Access** window (in the left nav menu). Click Add and select the name of the Web API you registered previously, for example `My Test ASP.NET Web API`. Select the scope(s) you defined previously, for example, `read` and `write` and hit **Ok**.
