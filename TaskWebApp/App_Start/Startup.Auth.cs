@@ -151,7 +151,7 @@ namespace TaskWebApp
             catch (Exception ex)
             {
                 //TODO: Handle
-                throw;
+                throw ex;
             }
         }
     }
